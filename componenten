@@ -1,12 +1,12 @@
 # Componenten
 
-| Aantal | Component |
-|--------|-----------|
-| 1 | ESP32 DevKit V1 |
-| 5 | Potentiometer 10kΩ |
-| 2 | A4988 Stappenmotor Driver |
-| 2 | Bipolaire stappenmotor |
-| 1 | PCA9685 Servo Driver Board |
-| 3 | Servo-motor |
-| 1 | Breadboard |
-| 1 | Externe 12V voedingsbron |
+| Aantal | Component |Prijs|
+|--------|-----------|-----|
+| 1 | ESP32 DevKit V1 |-----|
+| 5 | Potentiometer 10kΩ |-----|
+| 2 | A4988 Stappenmotor Driver |-----|
+| 2 | Bipolaire stappenmotor |-----|
+| 1 | PCA9685 Servo Driver Board |-----|
+| 3 | Servo-motor |-----|
+| 1 | Breadboard |-----|
+| 1 | Externe 12V voedingsbron |-----|
