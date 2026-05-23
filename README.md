@@ -12,7 +12,8 @@ een paar voorbeelden van inspiratiebronnen:
 |![Render van product](images/refrence_3.png)|
 
 De 3D-modellen werden uitgetekend in Siemens NX en zijn in bijlage beschikbaar in .prt-formaat, .obj-formaat en .stl-formaat.
-de robotarm bestaat uit 5 motoren:
+
+De robotarm bestaat uit 5 motoren:
 * 3 servomotoren (aangeduid in het rood)
     * 1 in de klauw 
     * 1 in het bovenste scharnierpunt
