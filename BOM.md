@@ -1,4 +1,3 @@
-
 # Componenten
 
 | Aantal | Component | Prijs | Aankooplink |

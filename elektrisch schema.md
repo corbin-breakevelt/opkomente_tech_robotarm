@@ -2,8 +2,9 @@
 
 Het volgende schema geeft weer hoe alle componenten aan elkaar verbonden zijn.
 
-![Render van product](images/schema.jpg)
-
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src="./images/schema.jpg" style="height: 500; width: auto;" alt="arm">
+</div> 
 ---
 
 ## Verbindingen
