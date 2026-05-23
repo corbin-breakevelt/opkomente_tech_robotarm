@@ -65,9 +65,23 @@ Hoofdfunctie is SERVO_DRAAIING(). Deze functie: leest de potentiometerwaarde,con
 
 De inputs, in dit geval de potentiometers, konden getest worden met een multimeter en in de Arduino IDE-terminal.
 
+# eindresultaat
+Alle nodige CAD onderdellen werden uitgeprint op een elegoo neptune 3 max. 
+De aluminium profiellen werden op lengte gezaagd.
+en alles werd in/op elkaar geschroegt/geklikt.
 
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src=".//images/WhatsApp Image 2026-05-23 at 10.42.28.jpeg" style="height: 500; width: auto;" alt="arm">
+</div>  
 
-de code voor de arm :
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src=".//images/WhatsApp Image 2026-05-23 at 10.42.00 (2).jpeg" style="height: 500; width: auto;" alt="arm">
+</div>  
+alle nodige materiaal is terug te vinden in de Bill Of Materials: 
+
+[BOM](BOM)
+
+de finalle code werd ook geschreven en is hier te lezen:
 [eind code](./code/robotarm_def_code_potmeter/robotarm_def_code_potmeter.ino)
 
 Deze code bestuurt alle vijf motoren van de robotarm: drie servomotoren (schouder, elleboog, gripper) en twee stapelmotoren (basis en pols). Alle motoren worden real-time aangestuurd via vijf potentiometers.
