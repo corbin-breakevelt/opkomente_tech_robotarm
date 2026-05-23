@@ -1,15 +1,16 @@
+
 # Componenten
 
-| Aantal | Component |Prijs|aankooplink|
-|--------|-----------|-----|-----|
-| 1 | ESP32 DevKit V1 |onbekent|reeds aangekocht|
-| 5 | Potentiometer 10kΩ |onbekent|reeds aangekocht|
-| 2 | A4988 Stappenmotor Driver | € 7.99 |https://www.amazon.de/-/en/AZDelivery-Stepper-Heatsink-Compatible-Raspberry/dp/B07C2V9GWC/ref=sr_1_10?crid=2SHYTR98R80KM&dib=eyJ2IjoiMSJ9.IGLxJBgq5xaoQF6PR-T99zW3HQSbx0oRrpy2BQFdcGOmEX4hn1csWFb0E_vV03RtH82154_PCZ9igzhnwpzWC8cJ_djCCdvY6XrkCtUEU76GeB0I544IQghVNhK2A6MFHJfsLffgW0HjyrytvZibFARx_g7oYqZ9BNV9CtbAlIv_vTlHjZF1QX6Kuf6TOJg7vNCwVhHZmBEt5i81m-tv63h5-bHjR08Cgf3-nA4dBLc8_xNxxdASB1AbfoyW_Eom0ZqjaaDtX5lh8jHm1OVo98JNUcRchcgNyU31N2JOqEs.hh0AEdnTceHT6p1zY6nNmHCZL93f46i2cAL54kYr-ms&dib_tag=se&keywords=steppermotor%2Bdriver&qid=1773066526&sprefix=steppermotor%2Bdrive%2Caps%2C110&sr=8-10&th=1&tag=operagx-def-sp-co2-de-21|
-| 2 | Bipolaire stappenmotor | € 35.00 |https://www.amazon.de/-/en/STEPPERONLINE-Stepper-Bipolar-Connector-Printer/dp/B0B38H2ZMR/ref=sr_1_4?crid=DWW1J4X8MB00&dib=eyJ2IjoiMSJ9.UjxcbkuhHhEVgJSnEsbjXNoFb6Ivqll3cOaJq9uYcoI5mYIVCRoX0qBajEdic258Dn5ISVvN3Dfamm-exrmxmhgRA94PwsU-Q0cMZPsscaajs9NqRmfHpXKlwmmzvii1I4Q5930K0Tv36rMN7wfeEsKOFhJKE_QZWiMkf4YWj4UVH6ckq4828hEknlJhILZKH9PWvCYqZIBAlqecvL9IxewwqyyksGeZmZaR73Gw47vX8nayHNy-VUcIvmLXWw2T49eCdA17RbY3z_Pzkqf3jZJSN46xy1zr4WML12ygQPQ.QOGXuIm_KDdm-ipCrxSOugv2dBnvriUHI4qumz9SxFA&dib_tag=se&keywords=Stepper%2BMotor&qid=1774114164&s=industrial&sprefix=stepper%2Bmotor%2Cindustrial%2C121&sr=1-4&th=1&tag=operagx-def-sp-co2-de-21|
-| 1 | PCA9685 Servo Driver Board |€6.89|https://www.amazon.de/-/en/PCA9685-16-Channel-12-bit-Driver-Arduino/dp/B06XSFFXQY/ref=sr_1_6?crid=1H9W76SQH6J12&dib=eyJ2IjoiMSJ9.N9i0BQZuJOIkMxPITTqOzsYOcWDrfJpi1IZxL11z5nwIrZVG-H3DYig6uLasaGQlOw4zIsqCSxIerxOsvps2NOtbhq1pqc1OnKWUAt2N9pfGrH0Pwlr9JXvxDRDpOsHKAcXiwDRy8k_lWRmLE_cctaiA3v_BelFeB3zMqkc3606pDphu1M-O6hFo7ZJIyzmUHtq5WZkahlCYap7-3dSa0cPSV4P6nv4KRlgWxRNFT5QGOLVcuT2zT7xN_PG2q64qlVi7XKQnSv8RvaOQPOtNYUIXX1tXr3MAi2IFr2uM5PU.qXIdaTXrJzsDUXMwmji7fUakUryVGzE4Uot_61S1PDI&dib_tag=se&keywords=PCA9685+Servo+Driver+Board&qid=1779541373&s=industrial&sprefix=pca9685+servo+driver+board%2Cindustrial%2C100&sr=1-6|
-| 3 | Servo-motor | € 22.59 |https://www.amazon.de/-/en/QIQIAZI-Digital-Aeroplane-Helicopter-Arduino/dp/B0DXQ3HDGZ/ref=dp_prsubs_d_sccl_2/258-7201671-7546829?pd_rd_w=66SpU&content-id=amzn1.sym.88605015-6bf0-41d9-a538-766bd5286c80&pf_rd_p=88605015-6bf0-41d9-a538-766bd5286c80&pf_rd_r=DBJ7HQHTNZQXS0J8K7Y9&pd_rd_wg=reDVe&pd_rd_r=03cb0f59-481a-4572-bedd-b2412474d492&pd_rd_i=B0DXQ3HDGZ&psc=1|
-| 1 | Breadboard |onbekent|reeds aangekocht|
-| 1 | Externe 12V voedingsbron |onbekent|reeds aangekocht|
-| 2 | Externe 5V voedingsbron |onbekent|reeds aangekocht|
-| 3 | aluminium vierkant profiel 10X10X270mm |onbekent|reeds aangekocht|
-| 1 | aluminium vierkant profiel 10X10X270mm |€8.99|https://www.amazon.de/-/en/Bearings-Double-Shielded-Miniature-Skateboard/dp/B0G4THNNQB/ref=sr_1_29?crid=R1BA4XO4EM1V&dib=eyJ2IjoiMSJ9.VEY1eBT7RLjFZ8Mf30EjuRfQeqBCcM8Ht2zexyo9AkA3pt7cECpXaWBsu_mtHESdiwian_MA3SCOjA7CxfVAYHdZ5ZllTvNIHZG2_vT6yTxSWXppP3b5qjzQV36BCsZScj5-Vh98IadR8Mf8t7fA7o0lHeqvwgBjEvEtanhPenVJhbAstWr9xUQddo5C2ngSBU0sorYsvASFNVMrUA21VPMyG3uxJP6rRxC6I6Rju972Zgrg1Qvyq1OjnLucY6gmvBGhSYVJxC_lgc1H3H3dAUZomjoy96SGb5ou8jCjb74.eGTWkDQORHfONJleCGVtLuafwprpIHBLFS4iJnRmMlM&dib_tag=se&keywords=ball+bearing&qid=1774101223&sprefix=ballbear%2Caps%2C92&sr=8-29|
+| Aantal | Component | Prijs | Aankooplink |
+|---|---|---|---|
+| 1 | ESP32 DevKit V1 | onbekend | reeds aangekocht |
+| 5 | Potentiometer 10kΩ | onbekend | reeds aangekocht |
+| 2 | A4988 Stappenmotor Driver | €7.99 | [Amazon](https://www.amazon.de/-/en/AZDelivery-Stepper-Heatsink-Compatible-Raspberry/dp/B07C2V9GWC/) |
+| 2 | Bipolaire stappenmotor | €35.00 | [Amazon](https://www.amazon.de/-/en/STEPPERONLINE-Stepper-Bipolar-Connector-Printer/dp/B0B38H2ZMR/) |
+| 1 | PCA9685 Servo Driver Board | €6.89 | [Amazon](https://www.amazon.de/-/en/PCA9685-16-Channel-12-bit-Driver-Arduino/dp/B06XSFFXQY/) |
+| 3 | Servo-motor | €22.59 | [Amazon](https://www.amazon.de/-/en/QIQIAZI-Digital-Aeroplane-Helicopter-Arduino/dp/B0DXQ3HDGZ/) |
+| 1 | Breadboard | onbekend | reeds aangekocht |
+| 1 | Externe 12V voedingsbron | onbekend | reeds aangekocht |
+| 2 | Externe 5V voedingsbron | onbekend | reeds aangekocht |
+| 3 | Aluminium vierkant profiel 10×10×270mm | onbekend | reeds aangekocht |
+| 1 | Kogellagers | €8.99 | [Amazon](https://www.amazon.de/-/en/Bearings-Double-Shielded-Miniature-Skateboard/dp/B0G4THNNQB/) |
