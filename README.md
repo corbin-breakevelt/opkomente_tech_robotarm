@@ -30,7 +30,7 @@ In het begin van het project was het de bedoeling om gebruik te maken van een Ar
 het CNC-schild is helaas niet compatibel met een ESP, dus zijn de schakelingen voor de stepperdrivers handmatig gemaakt.
 
 Het elektrisch schema is hier te vinden: 
-[schema conponenten](elektrisch%20schema)
+[schema conponenten](elektrisch%20schema.md)
 
 De drie servomotoren zorgen voor nauwkeurige positieregeling van de verschillende gewrichten van de arm. De servomotoren worden aangestuurd via de PCA9685 PWM-uitbreidingskaart, een 16-kanaals PWM-controller die via I²C-communicatie met de ESP32 communiceert, wat betekent dat slechts twee pinnen (SDA en SCL) nodig zijn voor communicatie met het PWM-uitbreidingskaart. Dit stelt de microcontroller in staat om meerdere servomotoren tegelijk aan te sturen met nauwkeurige pulsbreedte-modulatie (PWM). De PCA9685 ondersteunt frequenties van 24 Hz tot 1526 Hz, wat ideaal is voor servobedrijving. 
 De twee stapelmotoren worden aangestuurd door twee A4988 stuurcircuits. De A4988 is een geïntegreerde stuurdriver speciaal ontworpen voor bipolaire stapelmotoren. Dit circuit verzorgt de complexe energietoevoer naar de motorwikkelingen en maakt microstepping mogelijk. Dit betekent dat de motor niet alleen in volle stappen kan bewegen, maar ook in kleinere stappen (bijvoorbeeld 1/16 stap), wat resulteert in vloeiere bewegingen en betere positiecontrole. Elk A4988-circuit wordt rechtstreeks door de ESP aangestuurd via standaard digitale GPIO-pinnen. 
@@ -80,7 +80,7 @@ en alles werd in/op elkaar geschroegt/geklikt.
 </div>  
 alle nodige materiaal is terug te vinden in de Bill Of Materials: 
 
-[BOM](BOM)
+[BOM](BOM.md)
 
 de finalle code werd ook geschreven en is hier te lezen:
 [eind code](./code/robotarm_def_code_potmeter/robotarm_def_code_potmeter.ino)
