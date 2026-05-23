@@ -30,14 +30,14 @@ In het begin van het project was het de bedoeling om gebruik te maken van een Ar
 het CNC-schild is helaas niet compatibel met een ESP, dus zijn de schakelingen voor de stepperdrivers handmatig gemaakt.
 
 Het elektrisch schema is hier te vinden: 
-[schema conponenten](/opkomente_tech_robotarm/elektrisch%20schema)
+[schema conponenten](elektrisch%20schema)
 
 De drie servomotoren zorgen voor nauwkeurige positieregeling van de verschillende gewrichten van de arm. De servomotoren worden aangestuurd via de PCA9685 PWM-uitbreidingskaart, een 16-kanaals PWM-controller die via I²C-communicatie met de ESP32 communiceert, wat betekent dat slechts twee pinnen (SDA en SCL) nodig zijn voor communicatie met het PWM-uitbreidingskaart. Dit stelt de microcontroller in staat om meerdere servomotoren tegelijk aan te sturen met nauwkeurige pulsbreedte-modulatie (PWM). De PCA9685 ondersteunt frequenties van 24 Hz tot 1526 Hz, wat ideaal is voor servobedrijving. 
 De twee stapelmotoren worden aangestuurd door twee A4988 stuurcircuits. De A4988 is een geïntegreerde stuurdriver speciaal ontworpen voor bipolaire stapelmotoren. Dit circuit verzorgt de complexe energietoevoer naar de motorwikkelingen en maakt microstepping mogelijk. Dit betekent dat de motor niet alleen in volle stappen kan bewegen, maar ook in kleinere stappen (bijvoorbeeld 1/16 stap), wat resulteert in vloeiere bewegingen en betere positiecontrole. Elk A4988-circuit wordt rechtstreeks door de ESP aangestuurd via standaard digitale GPIO-pinnen. 
 
 In het begin van het project werden eerst alle outputs gevalideer.
 Dit werd voor de steppers en servo's apart gedaan met volgende code:
-* [stepper validatie](./opkomente_tech_robotarm/code/Steppermotor_test)
+* [stepper validatie](./code/Steppermotor_test/Steppermotor_test.ino)
 De code gebruikt de AccelStepper-bibliotheek, een krachtige bibliotheek voor stapelmotorbesturing die versnelling en deceleratie ondersteunt. Twee AccelStepper-objecten worden aangemaakt in DRIVER-modus:
 stepper_BASE: Gekoppeld aan GPIO 2 (stap) en GPIO 5 (richting)
 stepper_WRIST: Gekoppeld aan GPIO 7 (stap) en GPIO 8 (richting)
@@ -53,7 +53,7 @@ STEPPER_DRAAIING() werkt als volgt:
 -Controleert of verschil tussen huidige en doelposition groter is dan 2 stappen (dode zone, voorkwamt constant oscilleren)
 -Roept stepper.run() aan, die de motor stap voor stap naar het doel beweegt met ingebouwde versnelling
 Beide stapelmotoren worden continu aangestuurd in een lus zonder vertraging, wat garanteert dat de motoren altijd kunnen reageren op potentiometerveranderingen met soepele, versnelde bewegingen.
-* [servo validatie](./opkomente_tech_robotarm/code/robotarm_servo_test)
+* [servo validatie](./code/robotarm_servo_test/robotarm_servo_test.ino)
 De code gebruikt de Adafruit_PWMServoDriver-bibliotheek om de PCA9685 PWM-controller aan te sturen via I²C (GPIO 21 en 22). De PCA9685 werkt op 50 Hz, wat standaard is voor servomotoren.
 Voor elk gewricht zijn minimale en maximale pulsbreedte-waarden ingesteld (in microseconden):
 Schouder: 150-600 µs (~40°-140°)
